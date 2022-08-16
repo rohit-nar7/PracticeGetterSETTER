@@ -3,20 +3,15 @@ package customerData;
 public class Customer {
 
     private String name;
-    private   String address;
+    private String address;
     private String email;
     private long mobileNo;
-    private boolean membership;
+    private boolean membership = false;
 
 
     public Customer() {
-        String Name;
-        String Address;
-        String email;
-        long mobileNo;
-        boolean membership;
     }
-    Customer(String Name,String Address,String email,int mobileNo,boolean membership) {
+    public Customer(String Name,String Address,String email,int mobileNo,boolean membership) {
         this.name = name;
         this.address = address;
         this.email = email;
