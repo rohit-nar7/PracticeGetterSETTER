@@ -5,7 +5,7 @@ public class Customer {
     private String name;
     private   String address;
     private String email;
-    private int mobileNo;
+    private long mobileNo;
     private boolean membership;
 
 
@@ -13,7 +13,7 @@ public class Customer {
         String Name;
         String Address;
         String email;
-        int mobileNo;
+        long mobileNo;
         boolean membership;
     }
     Customer(String Name,String Address,String email,int mobileNo,boolean membership) {
@@ -30,5 +30,36 @@ public class Customer {
         System.out.println("email = " + email);
         System.out.println("mobileNo = " + mobileNo);
         System.out.println("membership = " + membership);
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return  name;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    public String getAddress() {
+        return address;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    public String getEmail() {
+        return email;
+    }
+    public  void setMobileNo(long mobileNo) {
+        this.mobileNo = mobileNo;
+    }
+    public long getMobileNo() {
+        return  mobileNo;
+
+    }
+    public void isMembership(boolean membership) {
+        this.membership = membership;
+    }
+    public  boolean isMembership() {
+        return membership;
     }
 }
