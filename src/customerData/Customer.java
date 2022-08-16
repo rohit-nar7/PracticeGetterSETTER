@@ -3,9 +3,11 @@ package customerData;
 public class Customer {
 
     Customer() {
-        String customerName;
-        String customerAddress;
+        String Name;
+        String Address;
         String email;
-        String
+        int mobileNo;
+        boolean membership;
+
     }
 }
